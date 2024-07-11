@@ -22,26 +22,47 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
-console.log("Movie information for " + movie1.title);
-console.log("------------------------------");
-console.log("Actors: " + movie1.actors);
-console.log("Directors: " + movie1.directors);
-console.log("------------------------------");
+var movie4 = {
+  title: "The Lord of the Rings: The Fellowship of the Ring",
+  actors: "Elijah Wood, Ian McKellen, Orlando Bloom",
+  directors: "Peter Jackson"
+};
 
-console.log("Movie information for " + movie2.title);
-console.log("------------------------------");
-console.log("Actors: " + movie2.actors);
-console.log("Directors: " + movie2.directors);
-console.log("------------------------------");
+function moviedetails(movie) {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+  
+}
 
-console.log("Movie information for " + movie3.title);
-console.log("------------------------------");
-console.log("Actors: " + movie3.actors);
-console.log("Directors: " + movie3.directors);
-console.log("------------------------------");
+moviedetails(movie1);
+moviedetails(movie2);
+moviedetails(movie3);
+moviedetails(movie4);
 
-
-
+var event1 = {
+  eventname : "Farwell",
+  location : "IIM",
+  Date : "10-07-2024"
+};
+var event2 = {
+  eventname : "Farwell",
+  location : "IIM",
+  Date : "10-07-2024"
+};
+var event3 = {
+  eventname : "Farwell",
+  location : "IIM",
+  Date : "10-07-2024"
+};
+function eventdetails() {
+ console.log(event1);
+ console.log(event2);
+ console.log(event3);
+}
+eventdetails();
 /* Further Adventures
  *
  * 1) Add a fourth movie and display its info

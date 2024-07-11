@@ -13,6 +13,15 @@ player1.score = player1.score + 50;
 
 console.log(player1.name + " has scored " + player1.score);
 
+player1.score =player1.score +  (player1.score * 10) / 100 ;
+console.log(player1.name + " has scored " + player1.score);
+
+var player2;
+player2 = {
+	name : "Messi",
+	score : 45
+};
+console.log(" Sum of " + player1.name + " and " + player2.name + " is " + (player1.score + player2.score));
 
 
 /* Further Adventures

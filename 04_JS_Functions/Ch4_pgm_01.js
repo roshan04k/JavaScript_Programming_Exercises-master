@@ -14,7 +14,26 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
 
+var movie2 = {
+  title: "The Lion King",
+  actors: "James Earl Jones, Matthew Broderick",
+  directors: "Roger Allers, Rob Minkoff"
+};
 
+console.log("Movie information for " + movie1.title);
+console.log("------------------------------");
+console.log("Actors: " + movie1.actors);
+console.log("Directors: " + movie1.directors);
+console.log("------------------------------");
+
+var blogPost = {
+  title: "Exploring Machine Learning",
+  author: "Bard",
+  date: "2024-07-10",
+  content: "This blog post discusses the basics of machine learning..."
+};
+
+console.log(blogPost);
 
 /* Further Adventures
  *

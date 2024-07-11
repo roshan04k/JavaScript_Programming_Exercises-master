@@ -14,7 +14,19 @@ console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
+var player1;
 
+player1 = {
+    name: "Ronaldo",
+    health: 75,
+    place: "The Dungeon of Doom",
+    items: "a rusty key, The Sword of Destiny, a piece of cheese"
+};
+
+console.log(player1.name);
+console.log(player1.name + " is in " + player1.place);
+console.log(player1.name + " has health " + player1.health);
+console.log("Items: " + player1.items);
 
 /* Further Adventures
  *

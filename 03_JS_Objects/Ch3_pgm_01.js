@@ -8,6 +8,15 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
+bookTitle = "Gandhi: A Life in Three Campaigns";
+bookAuthor = "M.J. Akbar and K Natwar Singh";
+console.log(bookTitle + " by " + bookAuthor);
+
+for(i=0; i<=10; i++) {
+    bookTitle = "Maha Kavithai";
+    bookAuthor = "Vairamuthu";
+    console.log(bookTitle + " by " + bookAuthor);
+}
 
 
 /* Further Adventures

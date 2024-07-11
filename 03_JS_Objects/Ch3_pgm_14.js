@@ -10,7 +10,11 @@ var questionAndAnswer = {
 	marksForQuestion: 2
 };
 
-
+console.log("Question : " + questionAndAnswer.question);
+console.log("Option1 : " + questionAndAnswer.answer1);
+console.log("Option2 : " + questionAndAnswer.answer2);
+console.log("Option3 : " + questionAndAnswer.answer3);
+console.log("Option4 : " + questionAndAnswer.answer4);
 
 /* Further Adventures
  *

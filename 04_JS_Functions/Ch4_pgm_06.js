@@ -3,12 +3,16 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello\nWorld!");
 };
 
 sayHello();
 sayHello();
 sayHello();
+printHello = function() {
+	console.log("H\nE\nL\nL\nO\nW\nO\nR\nL\nD")
+}
+printHello();
 
 
 

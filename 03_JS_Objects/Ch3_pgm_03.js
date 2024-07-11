@@ -3,13 +3,22 @@
 var book;
 
 book = {
-    title : "The Hobbit",
+    title : "The Adventures of Tom Sawyer",
     author : "J. R. R. Tolkien",
     published : 1937
 };
 
 console.log(book);
 
+var book2;
+
+book2 = {
+    title : "Northern Lights",
+    author : "Philip Pullman",
+    published : 1947
+};
+
+console.log(book2);
 
 
 /* Further Adventures
