@@ -3,12 +3,19 @@
 var movie1;
 var showMovieInfo;
 var movie;
+var movie2;
 
 movie1 = {
     title: "Inside Out",
     actors: "Amy Poehler, Bill Hader",
     directors: "Pete Doctor, Ronaldo Del Carmen"
 };
+
+movie2 = {
+  title : "Goat",
+  actors : "Vijay",
+  directors : "Venkat Prabhu"
+}
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -18,7 +25,7 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-movie = movie1;
+movie = movie2;
 
 showMovieInfo();
 

@@ -41,8 +41,31 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var quiz;
+var quiz1 = {
+    question : "Who is your Favourite Actor?",
+    opt1 : " vijay ",
+    opt2 : " ajith ",
+    opt3 : " sk "
+}
+var quiz2 = {
+    question : "national animal?",
+    opt1 : " Lion ",
+    opt2 : " Tiger ",
+    opt3 : " Cheetah "
+}
+showquiz = function() {
+    console.log("Question" + " : " + quiz.question);
+    console.log("Options1" + quiz.opt1);
+    console.log("Options2" + quiz.opt2);
+    console.log("Options3" + quiz.opt3);
+}
 
+quiz = quiz1;
+showquiz();
 
+quiz = quiz2;
+showquiz();
 /* Further Adventures
  *
  * 1) Create an object to represent

@@ -3,7 +3,8 @@
 var showPlayerName;
 
 showPlayerName = function (playerName) {
-    console.log(playerName);
+    console.log(" The Player name is " + playerName);
+    console.log(" No of letters :" + playerName.length);
 };
 
 showPlayerName("Kandra");

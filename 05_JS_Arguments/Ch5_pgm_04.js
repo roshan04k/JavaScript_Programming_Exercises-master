@@ -2,13 +2,14 @@
 
 var showMessage;
 
-showMessage = function (message) {
-	console.log("The message is: " + message);
+showMessage = function (myMessage, message) {
+	console.log(myMessage + "The message is: " + message);
 };
 
-showMessage("It's full of stars!");
-showMessage("Hello to Jason Isaacs");
-showMessage("Hello to Jason Isaacs and Stephen Fry");
+showMessage("Statement1  " , "It's full of stars!");
+showMessage("Statement2  " , "Hello to Jason Isaacs");
+showMessage("Statement3  " , "Hello to Jason Isaacs and Stephen Fry");
+
 
 
 

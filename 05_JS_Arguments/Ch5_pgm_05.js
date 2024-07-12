@@ -14,6 +14,16 @@ square(1111);
 square(0.5);
 
 
+var cube = function(number) {
+  var result1 = number * number * number;
+  console.log(number + " * " + number + " * " + number + " = " + result1);
+}
+cube(3);
+cube(8);
+cube(1020);
+cube(2024);
+
+console.log(" The Square root of 9 is " + Math.sqrt(9));
 
 /* Further Adventures
  *

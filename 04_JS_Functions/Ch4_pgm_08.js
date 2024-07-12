@@ -7,11 +7,18 @@ displayMenu = function () {
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
+	console.log("(4) Sign In");
 };
 
 displayMenu();
 
-
+displayMenu2 = function() {
+	console.log("Please choose an option:");
+	console.log("(1) School");
+	console.log("(2) College");
+	console.log("(9) Office");
+}
+displayMenu2();
 
 /* Further Adventures
  *
