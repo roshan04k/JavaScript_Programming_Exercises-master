@@ -1,7 +1,7 @@
 // Displaying a player's information using properties
 
 var showPlayerName = function (playerName) {
-    console.log(playerName);
+    console.log("- " + playerName + " - ");
 };
 
 var showPlayerHealth = function (playerName, playerHealth) {
@@ -12,17 +12,22 @@ var showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
 };
 
+var showLine = function(a,b) {
+    let line = "-----------------------------------";
+    console.log(line.substring(a,b));
+}
+
 var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     console.log("");
+    showLine(0,10);
 
     showPlayerName(playerName);
-
-    console.log("----------------------------");
+    showLine(0,10);
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
-    console.log("----------------------------");
+    console.log("-----------------------");
     console.log("");
 };
 
